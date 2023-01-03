@@ -1,4 +1,14 @@
-# webapplication
+# Nameless Web Application Client
+
+## Problem with Webpack and Node v17+
+
+```bash
+# before run, set env variable (windows)
+$ $env:NODE_OPTIONS="--openssl-legacy-provider"
+
+# before run, set env variable (linux or macos)
+$ export NODE_OPTIONS=--openssl-legacy-provider
+```
 
 ## Build Setup
 
